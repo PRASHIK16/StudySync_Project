@@ -21,7 +21,7 @@
 body{
     height: 100vh;
     text-align: center;
-    background-color: var(--background-color);
+    background-color:var(--background-color);
     padding: 0.1rem;
 }
 /* 
@@ -49,8 +49,8 @@ body{
 } 
 
 .logo_icon {
-    height: 5.875rem;
-    width: 1.938rem ;
+    height: 1.875rem;
+    width: 2.538rem ;
 }
 
 .logo_text{
@@ -209,6 +209,8 @@ body{
 }
 
 .content_right{
+    height: 100%;
+    width: 100%;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -291,12 +293,14 @@ body{
 }
 
 .svg_img{
-    height: 1.2rem;
+    height: 2.235rem;
+    width: 2.235rem;
     
 }
 
 .logo_txt{
     font-size: 1rem;
+    margin-left: -1.55rem;
     
 }
 
@@ -376,8 +380,8 @@ body{
 
 }
 .feature_svg{
-    width: 1.5rem;
-    height: 1.5rem;
+    width: 2.195rem;
+    height: 2.195rem;
 }
 .feature_tittle{
     color: white;
@@ -438,7 +442,7 @@ body{
 }
 .testimonial_grid{
     display: grid;
-    grid-template-columns: repeat(auto-fill , minmax(300px,1fr));
+    grid-template-columns: repeat(auto-fill , minmax(250px,1fr));
     grid-gap: 2rem;
 }
 
@@ -460,8 +464,9 @@ body{
 }
 
 .testimonial_avtar img{
-    height: 5rem;
-    width: 5rem;
+    height: 8.355rem;
+    width: 8.355rem;
+    border-radius: 50%;
 
 }
 
@@ -631,9 +636,9 @@ body{
 }
 
 .logo_svg{
-    width: 2.8rem;
-    height: 2.4rem;
-    margin-bottom: 2rem;
+    width: 2.4rem;
+    height: 1.89rem;
+    /* margin-bottom: 2rem; */
 }
 
 .logo_link{
@@ -641,24 +646,30 @@ body{
     justify-content: center;
     align-items: center;
     gap: 0.8rem;
-    font-size: 1rem;
+    font-size: 1.48rem;
     font-weight: bold;
     color: black;
 }
 
 .social{
     display: flex;
+    /* flex-direction: column; */
     gap: 0.8rem;
+  justify-content: center;
 
 }
-.social_icon{
-    width: 1.5rem;
-    height: 1.5rem;
+.social a img{
+    width: 1.75rem;
+    height: 1.75rem;
+    /* align-self: center; */
+    margin-top: 1rem;
+    margin-left: 0.48rem;
 }
 
 .filler_text{
     font-size: 1rem;
     color: #777;
+   text-align: center;
 }
 
 .footer_grid{
